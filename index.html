@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Voyages en Algérie : Explorez le pays en bus, avion et bateau avec Signature Travel. Découvrez nos circuits et itinéraires personnalisés à travers Alger, Oran, Constantine, le Sahara et bien plus.">
+    <meta name="keywords" content="voyages Algérie, circuits en Algérie, tours en bus, voyages en avion, vacances Algérie, circuits touristiques, tourisme Algérie, voyages méditerranéens, désert algérien, excursions Oran, Alger, Constantine">
+
+    <title>Signature Travel - Voyages en Algérie</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #34495E;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #1ABC9C;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .voyages-categories {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .voyage-card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .voyage-card:hover {
+            transform: scale(1.05);
+        }
+
+        .voyage-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .voyage-card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .voyage-card p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .voyage-card a {
+            text-decoration: none;
+            color: #1ABC9C;
+            font-weight: bold;
+        }
+
+        .voyage-card a:hover {
+            color: #34495E;
+        }
+
+        footer {
+            background-color: #34495E;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Signature Travel</h1>
+        <p>Voyages en Algérie - Explorez la richesse de notre pays.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#voyages">Nos Voyages</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Bienvenue chez Signature Travel</h2>
+        <p>Découvrez l'Algérie comme vous ne l'avez jamais vue ! Voyagez à travers le pays, en bus, avion et bateau, avec des itinéraires sur mesure conçus pour chaque type de voyageur.</p>
+    </section>
+
+    <section id="voyages">
+        <h2>Nos Voyages en Algérie</h2>
+        <p>De la côte méditerranéenne aux vastes étendues sahariennes, nous avons un voyage pour chaque envie d'évasion.</p>
+        
+        <div class="voyages-categories">
+            <div class="voyage-card">
+                <img src="oran.jpg" alt="Circuit des Grandes Villes">
+                <h3>Circuit des Grandes Villes</h3>
+                <p>Explorez les principales villes d'Algérie comme Alger, Oran et Constantine. Transport combiné bus et avion pour plus de confort et de flexibilité.</p>
+                <a href="circuit_grandes_villes.html">Découvrir le circuit</a>
+            </div>
+
+            <div class="voyage-card">
+                <img src="mediterraneen.jpg" alt="Voyage Méditerranéen">
+                <h3>Voyage Méditerranéen</h3>
+                <p>Partez à la découverte des villes côtières d'Algérie, de Bejaïa à Oran, en combinant bateau et avion pour une expérience unique.</p>
+                <a href="voyage_mediterraneen.html">Explorer le voyage</a>
+            </div>
+
+            <div class="voyage-card">
+                <img src="sahara.jpg" alt="Escapade dans le Désert">
+                <h3>Escapade dans le Désert</h3>
+                <p>Embarquez pour une aventure saharienne inoubliable, entre bus et avion, à la découverte des oasis et des paysages grandioses du désert algérien.</p>
+                <a href="escapade_desert.html">Vivre l'aventure</a>
+            </div>
+
+            <div class="voyage-card">
+                <img src="historique.jpg" alt="Circuit Historique">
+                <h3>Circuit Historique</h3>
+                <p>Visitez les sites archéologiques majeurs de l'Algérie, de Tipaza à Timgad, en voyageant en bus et en avion pour un maximum de confort.</p>
+                <a href="circuit_historique.html">Découvrir les sites</a>
+            </div>
+
+            <div class="voyage-card">
+                <img src="montagne.jpg" alt="Voyage Entre Mer et Montagne">
+                <h3>Voyage Entre Mer et Montagne</h3>
+                <p>Profitez de paysages époustouflants entre mer et montagne, de Tizi-Ouzou à Cherchell, en combinant bus et bateau pour une immersion totale.</p>
+                <a href="voyage_mer_montagne.html">Explorer les destinations</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Vous avez des questions ou souhaitez réserver votre prochain voyage ? Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
+        
+        <form action="mailto:contact@signaturetravel.dz" method="post" enctype="text/plain">
+            <div style="max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #fff;">
+                <label for="nom">Nom</label><br>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required style="width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; border-radius: 5px;" /><br><br>
+                
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Votre email" required style="width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; border-radius: 5px;" /><br><br>
+                
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" placeholder="Votre message" rows="6" required style="width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; border-radius: 5px;"></textarea><br><br>
+    
+                <button type="submit" style="background-color: #1ABC9C; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">Envoyer</button>
+            </div>
+        </form>
+        
+        <p>Ou contactez-nous directement :</p>
+        <p>Email : <a href="mailto:contact@signaturetravel.dz">contact@signaturetravel.dz</a></p>
+        <p>Téléphone : +213 123 456 789</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Signature Travel. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
