@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="description" content="Circuit des Grandes Villes d'Algérie avec Signature Travel. Explorez Alger, Oran et Constantine avec des itinéraires en avion et bus pour une expérience unique.">
+    <meta name="keywords" content="circuit Alger, voyage Oran, circuit Constantine, visites touristiques Algérie, voyages grandes villes Algérie, tourisme en Algérie, vacances Oran, circuit historique Alger">
+    <title>Circuit des Grandes Villes - Signature Travel</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #1ABC9C;
+        }
+
+        .details {
+            margin-top: 30px;
+        }
+
+        .details h3 {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #34495E;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .city-info, .hotel-info, .restaurant-info, .guide-info, .itinerary-info {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .city, .hotel, .restaurant, .guide, .itinerary {
+            width: 30%;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .city img, .hotel img, .restaurant img, .guide img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .city h3, .hotel h3, .restaurant h3, .guide h3 {
+            margin-top: 15px;
+        }
+
+        .city ul, .hotel ul, .restaurant ul, .guide ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .city ul li, .hotel ul li, .restaurant ul li, .guide ul li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Circuit des Grandes Villes</h1>
+        <p>Explorez Alger, Oran et Constantine avec Signature Travel</p>
+    </header>
+
+    <section>
+        <h2>Itinéraire du Circuit</h2>
+        <p>Un voyage incontournable pour découvrir les grandes villes d'Algérie. Voici votre planning détaillé :</p>
+        
+    </section>
+    <!-- Section des Villes -->
+    <section id="cities">
+        <h2>Villes à Visiter</h2>
+        <div class="city-info">
+            <div class="city">
+                <img src="alger.jpg" alt="Alger">
+                <h3>Alger</h3>
+                <ul>
+                    <li><strong>Sites à visiter :</strong> Casbah, Monument des Martyrs, Basilique Notre-Dame d'Afrique</li>
+                    <li><strong>Transport :</strong> Avion ou bus</li>
+                    <li><strong>Durée de visite :</strong> 2 jours</li>
+                </ul>
+            </div>
+
+            <div class="city">
+                <img src="oran.jpg" alt="Oran">
+                <h3>Oran</h3>
+                <ul>
+                    <li><strong>Sites à visiter :</strong> Fort Santa Cruz, Théâtre d'Oran, Musée Ahmed Zabana</li>
+                    <li><strong>Transport :</strong> Avion ou bus</li>
+                    <li><strong>Durée de visite :</strong> 2 jours</li>
+                </ul>
+            </div>
+
+            <div class="city">
+                <img src="constantine.jpg" alt="Constantine">
+                <h3>Constantine</h3>
+                <ul>
+                    <li><strong>Sites à visiter :</strong> Pont Suspendu, Musée du Moudjahid, Medrassa</li>
+                    <li><strong>Transport :</strong> Avion ou bus</li>
+                    <li><strong>Durée de visite :</strong> 2 jours</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des Hôtels -->
+    <section id="hotels">
+        <h2>Hôtels Recommandés</h2>
+        <div class="hotel-info">
+            <div class="hotel">
+                <img src="sofitel alger.jpg" alt="Hôtel à Alger">
+                <h3>Sofitel Alger Hamma Garden</h3>
+                <p>Hôtel 5 étoiles offrant des chambres luxueuses et un jardin magnifique.</p>
+            </div>
+
+            <div class="hotel">
+                <img src="sheraton oran.jpg" alt="Hôtel à Oran">
+                <h3>Sheraton Oran</h3>
+                <p>Un hôtel moderne avec vue sur la mer Méditerranée et une piscine extérieure.</p>
+            </div>
+
+            <div class="hotel">
+                <img src="sofitel constantine.jpg" alt="Hôtel à Constantine">
+                <h3>Sofitel Constantine</h3>
+                <p>Un hôtel haut de gamme avec un excellent service et des vues imprenables sur la ville.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des Restaurants -->
+    <section id="restaurants">
+        <h2>Restaurants Recommandés</h2>
+        <div class="restaurant-info">
+            <div class="restaurant">
+                <img src="bardo resto alger.jpg" alt="Restaurant à Alger">
+                <h3>Le Bardo</h3>
+                <p>Un restaurant historique avec une vue magnifique sur la mer Méditerranée.</p>
+            </div>
+
+            <div class="restaurant">
+                <img src="chalet resto pran.jpg" alt="Restaurant à Oran">
+                <h3>Le Chalet</h3>
+                <p>Spécialités locales dans un cadre chaleureux avec vue sur la mer.</p>
+            </div>
+
+            <div class="restaurant">
+                <img src="la rive restaurant const.jpg" alt="Restaurant à Constantine">
+                <h3>La Rive</h3>
+                <p>Cuisine traditionnelle algérienne avec des produits locaux frais.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des Guides -->
+    <section id="guides">
+        <h2>Guides Touristiques</h2>
+        <div class="guide-info">
+            <div class="guide">
+                <img src="guide alger.jpg" alt=" Guide à Alger">
+                <h3>Mohamed moukrane Guide d'Alger</h3>
+                <p>Guide local francophone pour explorer la capitale avec des anecdotes et histoires locales.</p>
+            </div>
+
+            <div class="guide">
+                <img src="guide oran.jpg" alt=" Guide à Oran">
+                <h3>Kader Hadibi Guide d'Oran</h3>
+                <p>Accompagnement pour découvrir Oran, ses monuments et son histoire fascinante.</p>
+            </div>
+
+            <div class="guide">
+                <img src="guide constantine.jpg" alt=" Guide à Constantine">
+                <h3>Naserdine Belarbi Guide de Constantine</h3>
+                <p>Une visite guidée pour explorer les trésors historiques et architecturaux de la ville.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section du Planning -->
+    <section id="itinerary">
+        <h2>Planning du Séjour</h2>
+        <p>Le programme détaillé de votre séjour vous permettra de profiter pleinement de chaque destination, avec des activités variées et des visites incontournables.</p>
+        <div class="itinerary-info">
+            <div class="itinerary">
+                <h3>Jour 1-2: Alger</h3>
+                <p>Arrivée à Alger, exploration des sites historiques, visite des musées et détente sur la baie d'Alger.</p>
+            </div>
+            <div class="itinerary">
+                <h3>Jour 3-4: Oran</h3>
+                <p>Visite du Fort Santa Cruz, découverte de l'architecture d'Oran, promenade sur la corniche.</p>
+            </div>
+            <div class="itinerary">
+                <h3>Jour 5-6: Constantine</h3>
+                <p>Visite du Pont Suspendu et des musées, découverte de l'histoire de la ville et ses sites magnifiques.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Signature Travel. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
